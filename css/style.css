@@ -951,10 +951,7 @@ body {
 }
 
 .top .btn {
-  padding-top: calc(10px + (30 - 10) * ((100vw - 320px) / 880));
-  padding-bottom: calc(10px + (30 - 10) * ((100vw - 320px) / 880));
-  padding-left: calc(20px + (50 - 20) * ((100vw - 320px) / 880));
-  padding-right: calc(20px + (50 - 20) * ((100vw - 320px) / 880));
+  padding: 30px 10px;
   margin: 0 auto;
   position: absolute;
   bottom: 50px;
@@ -1150,6 +1147,14 @@ body {
 
 .about__list div {
   width: 25%;
+}
+@media (max-width:1200px) {
+  .top .btn {
+    padding-top: calc(10px + (30 - 10) * ((100vw - 320px) / 880));
+    padding-bottom: calc(10px + (30 - 10) * ((100vw - 320px) / 880));
+    padding-left: calc(20px + (50 - 20) * ((100vw - 320px) / 880));
+    padding-right: calc(20px + (50 - 20) * ((100vw - 320px) / 880));
+  }
 }
 
 @media (max-width: 768px) {
